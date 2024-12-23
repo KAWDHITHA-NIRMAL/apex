@@ -39,7 +39,7 @@ const {
   //=============================================
   
   async function connectToWA() {
-  console.log("Connecting QUEEN-KYLIE-MD BOT 🤖...");
+  console.log("Connecting Apex-Md BOT 🤖...");
   const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
   var { version } = await fetchLatestBaileysVersion()
   
@@ -69,9 +69,9 @@ const {
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `QUEEN-KYLIE-MD CONNETED SUCCESSFULLY ✅\n\nPREFIX:${prefix}`;
+  let up = `Apex-Md CONNETED SUCCESSFULLY ✅\n\nPREFIX:${prefix}`;
   
-  conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/d3b6c8f9b0f94a5131742.jpg` }, caption: up })
+  conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/98XnsZL/20241008-150032.png` }, caption: up })
   
   }
   })
@@ -188,7 +188,7 @@ const {
   })
   }
   app.get("/", (req, res) => {
-  res.send("hey, QUEEN-KYLIE-MD started✅");
+  res.send("hey, Apex-Md started✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
